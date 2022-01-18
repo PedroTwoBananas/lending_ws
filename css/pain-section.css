@@ -31,17 +31,58 @@
 }
 
 .list-block {
+  height: 272px;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 24px;
   background: #ffffff;
   border: 1px solid #dbe3f0;
   box-sizing: border-box;
   border-radius: 20px;
-  margin: 0px 24px;
-  word-wrap:break-word;
+  word-wrap: break-word;
+}
+
+.list-block-text {
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132%;
+  letter-spacing: 0.0025em;
+  color: #637899;
 }
 
 .pain-list-item {
-    list-style-type: none;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px 0px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+.pain-list:last-child {
+  margin-right: 0;
+}
+
+.list-emodji {
+  align-self: flex-end;
+}
+
+.subtitle-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.pain-subtitle {
+  width: 768px;
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132%;
+  text-align: center;
+  letter-spacing: 0.0025em;
+  color: #27303f;
 }
