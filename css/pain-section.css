@@ -1,0 +1,117 @@
+.pain-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 144px;
+}
+
+.pain-title {
+  font-family: "FuturaPTWebHeavy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  display: flex;
+  align-self: flex-start;
+  letter-spacing: 0.0025em;
+  text-transform: uppercase;
+  color: #27303f;
+}
+
+.pain-list {
+  padding: 0;
+}
+
+.first-part-pain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+
+
+.second-part-pain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pain-list-item {
+  list-style-type: none;
+  display: flex;
+  margin-right: 24px;
+}
+
+.list-block {
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 24px;
+  background: #ffffff;
+  /* gray-blue/3 */
+
+  border: 1px solid #dbe3f0;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+/* .first-part-pain:last-child  {
+  margin-right: 0px;
+} */
+
+.block1 {
+  display: flex;
+  flex: 1.85;
+}
+
+.block2 {
+  display: flex;
+  flex: 2.5;
+}
+
+.block3 {
+  display: flex;
+  flex: 3;
+}
+
+.end {
+  margin-right: 0;
+}
+
+.list-block-text {
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132%;
+  letter-spacing: 0.0025em;
+  color: #637899;
+  margin-bottom: 56px;
+}
+
+.list-emodji {
+  font-family: 'FuturaPTWebBook';
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.subtitle-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.pain-subtitle {
+  width: 768px;
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132%;
+  text-align: center;
+  letter-spacing: 0.0025em;
+  color: #27303f;
+  margin-bottom: 288px;
+}

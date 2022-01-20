@@ -1,0 +1,59 @@
+.partnership {
+  display: flex;
+  flex-direction: column;
+  margin-top: 94px;
+}
+.general-partnership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.general-partnership-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.information-partnership-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.information-partnership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.partnership-title {
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 132%;
+  /* identical to box height, or 32px */
+
+  letter-spacing: 0.0025em;
+
+  /* gray-blue/6 */
+
+  color: #27303f;
+  margin: 32px 0px;
+}
+
+.partnership-logo {
+  padding: 16px 0 16px 0;
+  margin: 0px 42px;
+}
+
+.general-partnership-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 16px 0px;
+}

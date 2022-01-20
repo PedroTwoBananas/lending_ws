@@ -1,0 +1,120 @@
+.chief-article {
+  width: 1176px;
+  height: 424px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin-bottom: 74px;
+  /* gray-blue/3 */
+
+  border: 1px solid #dbe3f0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 96px;
+}
+
+.chief-block {
+  width: 672px;
+  height: 312px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.chief-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.chief-photo {
+  width: 152px;
+  height: 152px;
+  border-radius: 56px;
+}
+
+.chief-name {
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0025em;
+
+  /* gray-blue/6 */
+
+  color: #27303f;
+  margin: 4px 0;
+}
+
+.chief-position {
+  font-family: "FuturaPTWebBook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0025em;
+
+  /* gray-blue/5 */
+  margin: 4px 0;
+  color: #637899;
+}
+
+.chief-organization {
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  /* blue/2 */
+  margin: 4px 0;
+  color: #56b8ff;
+}
+
+.chief-speech {
+  width: 480px;
+}
+
+.chief-speech-text {
+  font-family: "FuturaPTWebBook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  letter-spacing: 0.0025em;
+
+  /* gray-blue/6 */
+  /* margin: 0px 40px; */
+  color: #27303f;
+}
+
+.chief-img {
+  display: flex;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+}
