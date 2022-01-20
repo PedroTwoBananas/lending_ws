@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/useful-test.css" />
     <link rel="stylesheet" href="css/experts-section.css" />
     <link rel="stylesheet" href="css/chief-article.css" />
+    <link rel="stylesheet" href="css/lending-end.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -127,62 +128,64 @@
       <main class="lending-main">
         <section class="pain-section">
           <h2 class="pain-title">Какие боли есть<br />на рынке разработки?</h2>
-          <div class="pain-list-section">
-            <ul class="pain-list">
-              <li class="pain-list-item">
+          <ul class="pain-list">
+            <div class="first-part-pain">
+              <li class="pain-list-item block1">
                 <div class="list-block">
                   <span class="list-block-text">
-                    Пересечение<br />функций Product- и<br />Project-<br />менеджеров
+                    Пересечение функций Product- и Project-менеджеров
                   </span>
                   <span class="list-emodji">🤒</span>
                 </div>
               </li>
-              <li class="pain-list-item">
+              <li class="pain-list-item block2">
                 <div class="list-block">
                   <span class="list-block-text">
-                    Общий низкий уровень<br />знаний в области создания<br />цифровых
+                    Общий низкий уровень знаний в области создания цифровых
                     продуктов
                   </span>
                   <span class="list-emodji">🤧</span>
                 </div>
               </li>
-              <li class="pain-list-item">
+              <li class="pain-list-item block3 end">
                 <div class="list-block">
                   <span class="list-block-text">
-                    Некачественное делегирование<br />обязанностей Proxy PO
+                    Некачественное делегирование обязанностей Proxy PO
                   </span>
                   <span class="list-emodji">🤕</span>
                 </div>
               </li>
-              <li class="pain-list-item">
+            </div>
+            <div class="second-part-pain">
+              <li class="pain-list-item block2">
                 <div class="list-block">
                   <span class="list-block-text">
-                    В роли Product Owner<br />выступает Stakeholder, часто<br />не
+                    В роли Product Owner выступает Stakeholder, часто не
                     догадываясь об этом
                   </span>
                   <span class="list-emodji">😷</span>
                 </div>
               </li>
-              <li class="pain-list-item">
+              <li class="pain-list-item block2">
                 <div class="list-block">
                   <span class="list-block-text">
-                    Заблуждение о том, что<br />роль Product Owner<br />возможна
-                    только при<br />Agile-подходе
+                    Заблуждение о том, что роль Product Owner возможна только
+                    при Agile-подходе
                   </span>
                   <span class="list-emodji">🤢</span>
                 </div>
               </li>
-              <li class="pain-list-item">
+              <li class="pain-list-item block2 end">
                 <div class="list-block">
                   <span class="list-block-text">
-                    Разработка продуктов без<br />Product Owner наиболее<br />подвержена
+                    Разработка продуктов без Product Owner наиболее подвержена
                     рискам
                   </span>
                   <span class="list-emodji">☠️</span>
                 </div>
               </li>
-            </ul>
-          </div>
+            </div>
+          </ul>
         </section>
         <div class="subtitle-section">
           <h4 class="pain-subtitle">
@@ -201,12 +204,7 @@
           <ul class="useful-list">
             <li class="useful-list-item">
               <div class="list-item-block">
-                <img
-                  width="64"
-                  height="64"
-                  src="./images/👌🏻.png"
-                  class="useful-list-emodji"
-                />
+                <span class="useful-emodji">👌🏻</span>
                 <span class="useful-list-item-text"
                   >Определить собственный уровень знаний в области создания
                   цифровых продуктов</span
@@ -215,12 +213,7 @@
             </li>
             <li class="useful-list-item">
               <div class="list-item-block">
-                <img
-                  width="64"
-                  height="64"
-                  src="./images/🖖🏻.png"
-                  class="useful-list-emodji"
-                />
+                <span class="useful-emodji">🖖🏻</span>
                 <span class="useful-list-item-text"
                   >Ознакомиться с советами ведущих экспертов рынка
                 </span>
@@ -228,12 +221,7 @@
             </li>
             <li class="useful-list-item">
               <div class="list-item-block">
-                <img
-                  width="64"
-                  height="64"
-                  src="./images/🤙🏻.png"
-                  class="useful-list-emodji"
-                />
+                <span class="useful-emodji">🤙🏻</span>
                 <span class="useful-list-item-text"
                   >Бесплатно получить список полезных материалов для дальнейшего
                   развития
@@ -255,7 +243,7 @@
             <div class="first">
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo">👨‍💻</div>
+                  <img width="196" height="196" src="./images/man.png" alt="" />
                   <span class="experts-name">Глеб Кудрявцев</span>
                   <span class="experts-position">Руководитель продуктов</span>
                   <span class="experts-organization">Skyeng</span>
@@ -263,7 +251,12 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo">👩‍💻</div>
+                  <img
+                    width="196"
+                    height="196"
+                    src="./images/woman.png"
+                    alt=""
+                  />
                   <span class="experts-name">Татьяна Гороховская</span>
                   <span class="experts-position">Ментор</span>
                   <span class="experts-organization"
@@ -273,7 +266,12 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo">👩‍💻</div>
+                  <img
+                    width="196"
+                    height="196"
+                    src="./images/woman.png"
+                    alt=""
+                  />
                   <span class="experts-name">Марина Арефьева</span>
                   <span class="experts-position">Сооснователь</span>
                   <span class="experts-organization"
@@ -283,7 +281,13 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo photo1"></div>
+                  <img
+                    class="experts-photo"
+                    width="196"
+                    height="196"
+                    src="./images/jugan.png"
+                    alt=""
+                  />
                   <span class="experts-name">Иван Жуган</span>
                   <span class="experts-position">Product Manager</span>
                   <span class="experts-organization">Яндекс Практикум</span>
@@ -293,7 +297,7 @@
             <div class="second">
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo">👨‍💻</div>
+                  <img width="196" height="196" src="./images/man.png" alt="" />
                   <span class="experts-name">Евгений Швайковский</span>
                   <span class="experts-position">Product Manager</span>
                   <span class="experts-organization">Okko</span>
@@ -301,7 +305,7 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo">👨‍💻</div>
+                  <img width="196" height="196" src="./images/man.png" alt="" />
                   <span class="experts-name">Вячеслав Кузнецов</span>
                   <span class="experts-position">Руководитель продукта</span>
                   <span class="experts-organization">Healbe</span>
@@ -309,7 +313,13 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo"></div>
+                  <img
+                    width="196"
+                    height="196"
+                    class="experts-photo"
+                    src="./images/prishepov.png"
+                    alt=""
+                  />
                   <span class="experts-name">Владислав Прищепов</span>
                   <span class="experts-position">Product Manager</span>
                   <span class="experts-organization">Delivery Club</span>
@@ -317,7 +327,13 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo"></div>
+                  <img
+                    width="196"
+                    height="196"
+                    class="experts-photo"
+                    src="./images/hasnutdinov.png"
+                    alt=""
+                  />
                   <span class="experts-name">Андрей Хаснутдинов</span>
                   <span class="experts-position">Head of product manager</span>
                   <span class="experts-organization">Nero Electronics</span>
@@ -327,7 +343,13 @@
             <div class="third">
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo"></div>
+                  <img
+                    width="196"
+                    height="196"
+                    class="experts-photo"
+                    src="./images/shepotov.png"
+                    alt=""
+                  />
                   <span class="experts-name">Александр Шешотов</span>
                   <span class="experts-position"
                     >Руководитель направления «Мобильная разработка»</span
@@ -338,7 +360,13 @@
 
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo"></div>
+                  <img
+                    width="196"
+                    height="196"
+                    class="experts-photo"
+                    src="./images/korzhanov.png"
+                    alt=""
+                  />
                   <span class="experts-name">Александр Коржанов</span>
                   <span class="experts-position">Сооснователь</span>
                   <span class="experts-organization"
@@ -348,7 +376,13 @@
               </li>
               <li class="experts-list-item">
                 <div class="experts-list-block">
-                  <div class="experts-list-photo"></div>
+                  <img
+                    width="196"
+                    height="196"
+                    class="experts-photo"
+                    src="./images/salutin.png"
+                    alt=""
+                  />
                   <span class="experts-name">Артем Салютин</span>
                   <span class="experts-position">Руководитель проектов</span>
                   <span class="experts-organization">Work Solutions</span>
@@ -379,14 +413,61 @@
               </p>
 
               <p class="chief-speech-text">
-                Поэтому мы подготовили для вас этот проект. С его помощью
-                мы надеемся сделать рынок немного прозрачнее и уберечь
-                будущие проекты от распространенных рисков.
+                Поэтому мы подготовили для вас этот проект. С его помощью мы
+                надеемся сделать рынок немного прозрачнее и уберечь будущие
+                проекты от распространенных рисков.
               </p>
             </div>
           </div>
           <img class="chief-img" src="./images/Vector-chief.png" alt="" />
         </article>
+        <section class="lending-end">
+          <div class="end-test">
+            <h2 class="end-title">Все Еще<br />не прошли тест?</h2>
+            <span class="end-subtitle"
+              >Смелее, мы ничего не продаем и не собираем адреса почтовых
+              ящиков, а лишь делаем рынок заказной разработки чуточку прозрачнее
+              😉</span
+            >
+            <button class="header-article-test-button"><span class="test-button-name">Поехали!</span></button>
+          </div>
+          <div>
+            <img
+              class="end-background"
+              src="images/vector illustration top.png"
+              alt="WorkSolutions"
+            />
+          </div>
+        </section>
+        <footer class="footer-lending">
+          <div class="contacts-section">
+            <div class="contacts">
+              <div class="social">
+                <span class="contacts-title">Наши соцсети</span>
+                <div class="facebook">
+                  <img style="margin-right: 12px;" width="24" height="24" src="./images/fbr.png" alt="" />
+                  <span class="footer-text">Facebook</span>
+                </div>
+                <div class="instagram">
+                  <img style="margin-right: 12px;" width="24" height="24" src="./images/inst.png" alt="" />
+                  <span class="footer-text">Instagram</span>
+                </div>
+              </div>
+              <div class="tel-email">
+                <span class="contacts-title">По любым вопросам</span>
+                <span class="footer-text">partners@worksolutions.ru</span>
+                <span class="footer-text">+7 (863) 270-16-44</span>
+              </div>
+            </div>
+            <span class="autor"
+              >Illustration designed by pikisuperstar / Freepik</span
+            >
+          </div>
+
+          
+            <img class="footer-logo" src="./images/WS-Logo-Mono.png" alt="" />
+          
+        </footer>
       </main>
     </div>
   </body>

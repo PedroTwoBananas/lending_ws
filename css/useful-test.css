@@ -1,8 +1,10 @@
 .useful-section {
+  height: 744px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  margin-bottom: 144px;
 }
 
 .useful-title {
@@ -64,9 +66,15 @@
 }
 
 .useful-list:last-child {
-    margin-right: 0;
-  }
+  margin-right: 0;
+}
 
+.useful-emodji {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+}
 
 .useful-list-item-text {
   font-family: "FuturaPTWebDemi";

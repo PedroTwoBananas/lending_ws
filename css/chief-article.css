@@ -6,11 +6,13 @@
   justify-content: center;
   align-items: center;
   background: #ffffff;
+  margin-bottom: 74px;
   /* gray-blue/3 */
 
   border: 1px solid #dbe3f0;
   box-sizing: border-box;
   border-radius: 20px;
+  margin-top: 96px;
 }
 
 .chief-block {
