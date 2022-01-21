@@ -69,18 +69,32 @@
 .experts-list-block {
   /* box-sizing: border-box; */
   width: 276px;
-  height: 318px;
+  /* height: 318px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
 }
 
-.experts-photo {
+.border-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 131px;
   border: 1px solid #dbe3f0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.06));
   border-radius: 56px;
+  margin-bottom: 20px;
+}
+
+.experts-photo {
+  border: 1px solid #dbe3f0;
+  /* box-sizing: border-box; */
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.06));
+  border-radius: 56px;
+  margin-bottom: 20px;
 }
 
 .experts-name {
@@ -136,4 +150,21 @@
   /* gray-blue/5 */
   margin: 4px 0px;
   color: #637899;
+}
+
+.ws-organization {
+  font-family: "FuturaPTWebDemi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  /* blue/2 */
+  color: #56b8ff;
 }

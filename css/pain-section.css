@@ -15,6 +15,7 @@
   letter-spacing: 0.0025em;
   text-transform: uppercase;
   color: #27303f;
+  white-space: pre-line;
 }
 
 .pain-list {

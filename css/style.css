@@ -10,10 +10,8 @@ body {
 }
 
 .wrapper {
-  max-width: 1176px;
-  margin: 0 auto;
-  
-  
+  width: 1176px;
+  margin: 0 auto; 
 }
 
 .lending-header {
@@ -76,6 +74,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.0025em;
+  
 }
 
 .header-article-title-text {
@@ -91,6 +90,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #27303f;
+  white-space: normal;
 }
 
 .header-article-description-text {
@@ -200,20 +200,17 @@ body {
 }
 
 .header-logo-section {
-  position: absolute;
-  right: 0;
-  right: 175px;
-  justify-content: flex-end;
-  margin-top: 64px;
+  position: relative;
+  left: 570px;
+  
 }
 
 .header-logo {
-    position: relative;
+  margin-top: 64px;
 }
 
 .lending-background {
   width: 676px;
   height: 740px;
-  margin-top: 80px;
   margin-left: 12px;
 }
