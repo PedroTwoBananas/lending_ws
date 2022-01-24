@@ -1,16 +1,16 @@
 .useful-section {
-  height: 744px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   padding: 0px;
-  margin-bottom: 144px;
+  margin-bottom: 288px;
 }
 
 .useful-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .useful-title-text {
@@ -43,6 +43,8 @@
 .useful-list {
   display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .useful-list-item {
@@ -72,8 +74,9 @@
 .useful-emodji {
   font-style: normal;
   font-weight: 500;
-  font-size: 64px;
+  font-size: 56px;
   line-height: 100%;
+  
 }
 
 .useful-list-item-text {
@@ -86,4 +89,12 @@
   letter-spacing: 0.0025em;
   color: #27303f;
   margin: 24px 0px;
+}
+
+@media (max-width: 767px) {
+  .useful-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 }
