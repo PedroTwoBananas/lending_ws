@@ -15,7 +15,8 @@
   letter-spacing: 0.0025em;
   text-transform: uppercase;
   color: #27303f;
-  white-space: pre-line;
+  margin: 0;
+  margin-bottom: 64px;
 }
 
 .pain-list {
@@ -49,7 +50,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 24px;
+  
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 24px;
   background: #ffffff;
   /* gray-blue/3 */
 
@@ -64,12 +69,12 @@
 
 .block1 {
   display: flex;
-  flex: 1.85;
+  flex: 9.8%;
 }
 
 .block2 {
   display: flex;
-  flex: 2.5;
+  flex: 18.65%;
 }
 
 .block3 {
@@ -96,6 +101,9 @@
   font-family: 'FuturaPTWebBook';
   font-size: 20px;
   line-height: 24px;
+  position: relative;
+  left: 10px;
+  top: 2px;
 }
 
 .subtitle-section {

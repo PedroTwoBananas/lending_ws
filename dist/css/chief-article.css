@@ -3,7 +3,7 @@
   height: 424px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background: #ffffff;
   margin-bottom: 74px;
@@ -14,16 +14,16 @@
   border-radius: 20px;
   margin-top: 96px;
   padding: 32px;
+  padding-top: 50px;
 }
 
 .chief-block {
-  width: 672px;
+  
   height: 312px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin-right: 210px;
+  
 }
 
 .chief-information {
@@ -32,7 +32,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 40px;
+  margin-left: 65px;
+  margin-right: 40px;
   align-self: flex-start;
 }
 
@@ -99,6 +100,11 @@
 
 .chief-speech {
   width: 480px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
 }
 
 .chief-speech-text {
@@ -112,10 +118,14 @@
   letter-spacing: 0.0025em;
 
   /* gray-blue/6 */
-  /* margin: 0px 40px; */
+  margin: 0;
+  padding: 0;
+  padding-bottom: 12px;
   color: #27303f;
 }
 
 .chief-img {
-  align-self: flex-end;
+  position: relative;
+  top: 136px;
+  left: 146px;
 }

@@ -1,0 +1,26 @@
+{
+  "name": "lending_ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroTwoBananas/lending_ws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroTwoBananas/lending_ws/issues"
+  },
+  "homepage": "https://github.com/PedroTwoBananas/lending_ws#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}
