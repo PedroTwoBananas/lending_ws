@@ -14,7 +14,7 @@
   align-self: flex-start;
   letter-spacing: 0.0025em;
   text-transform: uppercase;
-  color: #27303f;
+  color: var(--primary-color-gray-blue6);
   margin: 0;
   margin-bottom: 64px;
 }
@@ -29,8 +29,6 @@
   justify-content: space-between;
   margin-bottom: 24px;
 }
-
-
 
 .second-part-pain {
   display: flex;
@@ -55,17 +53,15 @@
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom: 24px;
-  background: #ffffff;
-  /* gray-blue/3 */
-
+  background: var(--primary-color-white);
   border: 1px solid #dbe3f0;
   box-sizing: border-box;
   border-radius: 20px;
 }
 
-/* .first-part-pain:last-child  {
+.first-part-pain li:last-child, .second-part-pain li:last-child  {
   margin-right: 0px;
-} */
+}
 
 .block1 {
   display: flex;
@@ -82,10 +78,6 @@
   flex: 3;
 }
 
-.end {
-  margin-right: 0;
-}
-
 .list-block-text {
   font-family: "FuturaPTWebDemi";
   font-style: normal;
@@ -93,7 +85,7 @@
   font-size: 24px;
   line-height: 132%;
   letter-spacing: 0.0025em;
-  color: #637899;
+  color: var(--primary-color-gray-blue5);
   margin-bottom: 56px;
 }
 
@@ -121,6 +113,6 @@
   line-height: 132%;
   text-align: center;
   letter-spacing: 0.0025em;
-  color: #27303f;
+  color: var(--primary-color-gray-blue6);
   margin-bottom: 288px;
 }

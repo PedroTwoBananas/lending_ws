@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-top: 94px;
 }
+
 .general-partnership {
   display: flex;
   flex-direction: column;
@@ -37,13 +38,9 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 132%;
-  /* identical to box height, or 32px */
-
   letter-spacing: 0.0025em;
-
-  /* gray-blue/6 */
   margin: 0;
-  color: #27303f;
+  color: var(--primary-color-gray-blue6);
 }
 
 .partnership-logo {
